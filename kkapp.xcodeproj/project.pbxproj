@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE126BC6196209E500673451 /* DetailProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE126BC5196209E500673451 /* DetailProjectViewController.m */; };
 		FECE436419607B37008FDED5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECE436319607B37008FDED5 /* Foundation.framework */; };
 		FECE436619607B37008FDED5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECE436519607B37008FDED5 /* CoreGraphics.framework */; };
 		FECE436819607B37008FDED5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECE436719607B37008FDED5 /* UIKit.framework */; };
@@ -21,6 +22,14 @@
 		FECE438519607B37008FDED5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECE436719607B37008FDED5 /* UIKit.framework */; };
 		FECE438D19607B37008FDED5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FECE438B19607B37008FDED5 /* InfoPlist.strings */; };
 		FECE438F19607B37008FDED5 /* kkappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE438E19607B37008FDED5 /* kkappTests.m */; };
+		FECE439A19607B72008FDED5 /* InicioTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE439919607B72008FDED5 /* InicioTableViewController.m */; };
+		FECE439D19607B87008FDED5 /* InicioTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE439C19607B87008FDED5 /* InicioTableViewCell.m */; };
+		FECE43A119607BDD008FDED5 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE43A019607BDD008FDED5 /* Project.m */; };
+		FECE43A519607EE0008FDED5 /* Projects.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE43A419607EE0008FDED5 /* Projects.m */; };
+		FECE43AA1960856D008FDED5 /* denise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FECE43A61960856D008FDED5 /* denise.jpg */; };
+		FECE43AB1960856D008FDED5 /* mig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FECE43A71960856D008FDED5 /* mig.jpg */; };
+		FECE43AC1960856D008FDED5 /* sotano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FECE43A81960856D008FDED5 /* sotano.jpg */; };
+		FECE43AD1960856D008FDED5 /* tesorero.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FECE43A91960856D008FDED5 /* tesorero.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE126BC4196209E500673451 /* DetailProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailProjectViewController.h; sourceTree = "<group>"; };
+		FE126BC5196209E500673451 /* DetailProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailProjectViewController.m; sourceTree = "<group>"; };
 		FECE436019607B37008FDED5 /* kkapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kkapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FECE436319607B37008FDED5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FECE436519607B37008FDED5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +64,18 @@
 		FECE438A19607B37008FDED5 /* kkappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kkappTests-Info.plist"; sourceTree = "<group>"; };
 		FECE438C19607B37008FDED5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FECE438E19607B37008FDED5 /* kkappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kkappTests.m; sourceTree = "<group>"; };
+		FECE439819607B72008FDED5 /* InicioTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InicioTableViewController.h; sourceTree = "<group>"; };
+		FECE439919607B72008FDED5 /* InicioTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InicioTableViewController.m; sourceTree = "<group>"; };
+		FECE439B19607B87008FDED5 /* InicioTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InicioTableViewCell.h; sourceTree = "<group>"; };
+		FECE439C19607B87008FDED5 /* InicioTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InicioTableViewCell.m; sourceTree = "<group>"; };
+		FECE439F19607BDD008FDED5 /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		FECE43A019607BDD008FDED5 /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
+		FECE43A319607EE0008FDED5 /* Projects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Projects.h; sourceTree = "<group>"; };
+		FECE43A419607EE0008FDED5 /* Projects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Projects.m; sourceTree = "<group>"; };
+		FECE43A61960856D008FDED5 /* denise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = denise.jpg; sourceTree = "<group>"; };
+		FECE43A71960856D008FDED5 /* mig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mig.jpg; sourceTree = "<group>"; };
+		FECE43A81960856D008FDED5 /* sotano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sotano.jpg; sourceTree = "<group>"; };
+		FECE43A91960856D008FDED5 /* tesorero.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tesorero.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +135,8 @@
 		FECE436919607B37008FDED5 /* kkapp */ = {
 			isa = PBXGroup;
 			children = (
+				FECE43AE19608574008FDED5 /* artwork */,
+				FECE43A219607ECD008FDED5 /* model */,
 				FECE437219607B37008FDED5 /* AppDelegate.h */,
 				FECE437319607B37008FDED5 /* AppDelegate.m */,
 				FECE437519607B37008FDED5 /* Main.storyboard */,
@@ -119,6 +144,7 @@
 				FECE437919607B37008FDED5 /* ViewController.m */,
 				FECE437B19607B37008FDED5 /* Images.xcassets */,
 				FECE436A19607B37008FDED5 /* Supporting Files */,
+				FECE439E19607BA7008FDED5 /* Controller */,
 			);
 			path = kkapp;
 			sourceTree = "<group>";
@@ -150,6 +176,41 @@
 				FECE438B19607B37008FDED5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FECE439E19607BA7008FDED5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FECE439819607B72008FDED5 /* InicioTableViewController.h */,
+				FECE439919607B72008FDED5 /* InicioTableViewController.m */,
+				FECE439B19607B87008FDED5 /* InicioTableViewCell.h */,
+				FECE439C19607B87008FDED5 /* InicioTableViewCell.m */,
+				FE126BC4196209E500673451 /* DetailProjectViewController.h */,
+				FE126BC5196209E500673451 /* DetailProjectViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FECE43A219607ECD008FDED5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FECE439F19607BDD008FDED5 /* Project.h */,
+				FECE43A019607BDD008FDED5 /* Project.m */,
+				FECE43A319607EE0008FDED5 /* Projects.h */,
+				FECE43A419607EE0008FDED5 /* Projects.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		FECE43AE19608574008FDED5 /* artwork */ = {
+			isa = PBXGroup;
+			children = (
+				FECE43A61960856D008FDED5 /* denise.jpg */,
+				FECE43A71960856D008FDED5 /* mig.jpg */,
+				FECE43A81960856D008FDED5 /* sotano.jpg */,
+				FECE43A91960856D008FDED5 /* tesorero.jpg */,
+			);
+			name = artwork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +290,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FECE437C19607B37008FDED5 /* Images.xcassets in Resources */,
+				FECE43AC1960856D008FDED5 /* sotano.jpg in Resources */,
+				FECE43AA1960856D008FDED5 /* denise.jpg in Resources */,
+				FECE43AB1960856D008FDED5 /* mig.jpg in Resources */,
+				FECE43AD1960856D008FDED5 /* tesorero.jpg in Resources */,
 				FECE436E19607B37008FDED5 /* InfoPlist.strings in Resources */,
 				FECE437719607B37008FDED5 /* Main.storyboard in Resources */,
 			);
@@ -249,9 +314,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FECE439A19607B72008FDED5 /* InicioTableViewController.m in Sources */,
+				FE126BC6196209E500673451 /* DetailProjectViewController.m in Sources */,
 				FECE437A19607B37008FDED5 /* ViewController.m in Sources */,
 				FECE437419607B37008FDED5 /* AppDelegate.m in Sources */,
+				FECE43A119607BDD008FDED5 /* Project.m in Sources */,
 				FECE437019607B37008FDED5 /* main.m in Sources */,
+				FECE439D19607B87008FDED5 /* InicioTableViewCell.m in Sources */,
+				FECE43A519607EE0008FDED5 /* Projects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +526,7 @@
 				FECE439419607B37008FDED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FECE439519607B37008FDED5 /* Build configuration list for PBXNativeTarget "kkappTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +535,7 @@
 				FECE439719607B37008FDED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

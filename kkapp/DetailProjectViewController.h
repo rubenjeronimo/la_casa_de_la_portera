@@ -10,6 +10,8 @@
 
 @interface DetailProjectViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *imageProject;
-@property (nonatomic,strong) NSString *nombreImagen;
 @property (weak, nonatomic) IBOutlet UITextView *detailProject;
+@property (nonatomic,strong) NSString *nombreImagen;
+@property (nonatomic,strong) NSString *detail;
+//- (IBAction)atras:(id)sender;
 @end

@@ -38,6 +38,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
     self.tableView.contentInset = UIEdgeInsetsMake(2.5, 0, 2.5, 0);
     self.title = @"La casa de la portera";
 }
@@ -85,49 +86,7 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    [self setObjeto:[self.listProjects objectAtIndex:indexPath.row]];
-    
-    
-    [self performSegueWithIdentifier:@"DetailProject" sender:self];
 }
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
 
 #pragma mark - Navigation
 
@@ -135,13 +94,15 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([segue.identifier isEqualToString:@"DetailProject"]) {
-        NSIndexPath *path = [self.tableView indexPathForCell:sender];
-        self.objeto = [self.listProjects objectAtIndex:path.row];
-        DetailProjectViewController *dVC = [segue destinationViewController];
+        NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+        DetailProjectViewController *detailsVC = [segue destinationViewController];
+        self.objeto = [self.listProjects objectAtIndex:indexPath.row];
+
         NSString *nombreImagen =[self.objeto objectForKey:@"image"];
         NSString *detail = [self.objeto objectForKey:@"detail"];
-        [dVC setNombreImagen:nombreImagen];
-        dVC.detailProject.text = detail;
+        
+        detailsVC.nombreImagen = nombreImagen;
+        detailsVC.detail = detail;
     }
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.

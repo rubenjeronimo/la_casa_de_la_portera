@@ -7,38 +7,26 @@
 //
 
 #import "DetailProjectViewController.h"
-
+#import "InicioTableViewController.h"
 @interface DetailProjectViewController ()
 
 @end
 
 @implementation DetailProjectViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
 -(void) viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    self.imageProject.image = [UIImage imageNamed:self.nombreImagen];
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.detailProject.text = self.detail;
+    self.imageProject.image = [UIImage imageNamed:self.nombreImagen];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 /*
 #pragma mark - Navigation
@@ -50,5 +38,13 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+//- (IBAction)atras:(id)sender {
+////    InicioTableViewController *iTVC = [[InicioTableViewController alloc]init];
+////    [self.navigationController pushViewController:iTVC animated:YES];
+//    [self.navigationController popToRootViewControllerAnimated:YES];
+//}
+
+
 
 @end
